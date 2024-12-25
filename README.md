@@ -1,4 +1,5 @@
 # Learn Go with Tests
+> The test speaks to us more clearly, as if it were an assertion of truth, *not a sequence of operations*
 
 A practice repository following [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/) to learn TDD and Go fundamentals.
 
@@ -9,6 +10,7 @@ A practice repository following [Learn Go with Tests](https://quii.gitbook.io/le
 
 ## Progress (Day 2)
 - [x] Arrays and slices
+- [x] Structs, methods & interfaces
 
 ## Learning Reference
 
@@ -55,7 +57,6 @@ sum(nums...)        // Spread a slice (like Python's *)
 ```
 
 ## Todo
-- [ ] Structs, methods & interfaces
 - [ ] Pointers & errors
 - [ ] Maps
 - [ ] Dependency Injection
