@@ -12,6 +12,9 @@ A practice repository following [Learn Go with Tests](https://quii.gitbook.io/le
 - [x] Arrays and slices
 - [x] Structs, methods & interfaces
 
+## Progress (Day 3)
+- [x] Pointers & errors
+
 ## Learning Reference
 
 ### Arrays vs Slices
@@ -56,8 +59,10 @@ nums := []int{1, 2, 3}
 sum(nums...)        // Spread a slice (like Python's *)
 ```
 
+### Pointers
+Go copies values when you pass them to functions/methods, so if you're writing a function that needs to mutate state you'll need it to take a pointer to the thing you want to change.
+
 ## Todo
-- [ ] Pointers & errors
 - [ ] Maps
 - [ ] Dependency Injection
 - [ ] Mocking
